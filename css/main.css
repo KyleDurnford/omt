@@ -2,7 +2,6 @@
   font-family: "amazone";
   src: url("../assets/fonts/amazon.ttf") format("truetype");
 }
-
 h1 {
   font: 100% "amazone", sans-serif;
   color: #000000;
@@ -40,10 +39,8 @@ p, a {
   padding: 1rem;
   width: 100%;
   display: block;
-  -webkit-transition: background-color .1s ease;
-  transition: background-color .1s ease;
+  transition: background-color 0.1s ease;
 }
-
 .button-1:hover {
   background-color: #3d3d3d;
 }
@@ -51,13 +48,11 @@ p, a {
 main {
   margin: 0 1rem;
 }
-
 @media (min-width: 400px) {
   main {
     margin: 0 2rem;
   }
 }
-
 @media (min-width: 1921px) {
   main {
     max-width: 1920px;
@@ -68,36 +63,25 @@ main {
 .our-shop {
   background: #ACC816;
   padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 2rem;
 }
-
 .our-shop .text {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 350px;
-          flex: 1 1 350px;
+  flex: 1 1 350px;
   position: relative;
 }
-
 .our-shop .text .content-bottom {
   width: 100%;
   margin-bottom: 2rem;
 }
-
 @media (min-width: 1102px) {
   .our-shop .text .content-bottom {
     padding-right: 2rem;
     margin-bottom: 4px;
   }
 }
-
 @media (min-width: 1102px) {
   .our-shop .text .content-bottom {
     position: absolute;
@@ -105,15 +89,11 @@ main {
     left: 0;
   }
 }
-
 .our-shop .text .content-bottom p {
   margin: 1rem 0 2rem;
 }
-
 .our-shop .img {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 64%;
-          flex: 1 1 64%;
+  flex: 1 1 64%;
 }
 
 .street-market {
@@ -122,7 +102,6 @@ main {
   position: relative;
   margin-bottom: 2rem;
 }
-
 .street-market h2 {
   background-color: #ffffff;
   position: absolute;
@@ -130,7 +109,6 @@ main {
   right: 0;
   padding: 2rem;
 }
-
 .street-market p {
   background-color: #ffffff;
   position: absolute;
@@ -139,7 +117,6 @@ main {
   max-width: 70ch;
   padding: 2rem 0;
 }
-
 @media (min-width: 630px) {
   .street-market p {
     padding: 2rem;
@@ -147,153 +124,106 @@ main {
 }
 
 .shop-news {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   padding: 1rem;
   background-color: #591623;
   margin-bottom: 2rem;
 }
-
 .shop-news .title {
   padding: 1rem;
   color: #EAD6AE;
   text-align: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
+  text-transform: capitalize;
 }
-
 .shop-news .text-top {
   padding: 1rem;
   color: #EAD6AE;
 }
-
 .shop-news .text-top h3, .shop-news .text-top h4 {
   color: #ffffff;
 }
-
 .shop-news .text-top p {
   margin-top: 2rem;
 }
-
 .shop-news .img {
   padding: 1rem;
 }
-
 .shop-news .img img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
 
 .shop-news > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 350px;
-          flex: 1 1 350px;
+  flex: 1 1 350px;
 }
 
 .treasures {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 2rem;
 }
-
 .treasures .rabbit {
   margin-bottom: 2rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 @media (min-width: 400px) {
   .treasures .rabbit {
     padding-right: 1rem;
     margin-bottom: 2re;
   }
 }
-
 @media (min-width: 939px) {
   .treasures .rabbit {
     margin-bottom: 0;
   }
 }
-
 .treasures .grid-flex {
   margin-bottom: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 @media (min-width: 400px) {
   .treasures .grid-flex {
     padding-left: 1rem;
     margin-bottom: 2rem;
   }
 }
-
 @media (min-width: 939px) {
   .treasures .grid-flex {
     padding: 0 1rem;
     margin-bottom: 0;
   }
 }
-
 .treasures .grid-flex .chest {
   padding-top: 2rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .treasures .grid-flex img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .treasures .info {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media (min-width: 400px) {
   .treasures .info {
     min-width: 350px;
   }
 }
-
 @media (min-width: 939px) {
   .treasures .info {
     padding-left: 1rem;
   }
 }
-
 .treasures .info .text {
   background-color: #EAD6AE;
   padding: 1rem;
@@ -301,31 +231,25 @@ main {
   height: 90%;
   margin-bottom: 2rem;
 }
-
 @media (min-width: 939px) {
   .treasures .info .text .push-down {
     position: absolute;
     bottom: 0;
   }
 }
-
 .treasures .info .text .push-down p {
   padding: 1rem 1rem 1rem 0;
 }
 
 .treasures > * {
   width: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  flex: 1 1 auto;
 }
-
 @media (min-width: 400px) {
   .treasures > * {
     width: 50%;
   }
 }
-
 @media (min-width: 939px) {
   .treasures > * {
     width: 30%;
@@ -340,209 +264,160 @@ main {
 .visit {
   margin-bottom: 2rem;
 }
-
+.visit .contact-intro {
+  text-align: center;
+  max-width: 70ch;
+  margin: 2rem auto;
+}
 .visit .titlebar {
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  margin-bottom: 2rem;
 }
-
 .visit .content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
-
 .visit .content > * {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 424px;
-          flex: 1 1 424px;
+  flex: 1 1 424px;
 }
-
 .visit .map-container {
   margin-bottom: 2rem;
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
   max-height: max-content;
 }
-
 @media (min-width: 810px) {
   .visit .map-container {
     margin-right: 1rem;
     margin-bottom: 0;
   }
 }
-
 .visit .img {
   background: url("../assets/img/hallway.jpg") center/cover no-repeat;
   min-height: 100%;
   width: 100%;
 }
-
 @media (min-width: 810px) {
   .visit .img {
     margin-left: 1rem;
   }
 }
-
 .visit .map {
   width: 100%;
   padding-bottom: 100%;
   background-color: #EAD6AE;
 }
-
 .visit .button {
   margin-top: 2rem;
 }
-
 .visit .hours {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   text-align: center;
 }
-
 .visit .hours .time {
   padding: 1rem;
   margin-bottom: 2rem;
 }
-
 .visit .hours .time-1 {
   background-color: #591623;
   color: #EAD6AE;
   width: 100%;
 }
-
 @media (min-width: 472px) {
   .visit .hours .time-1 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
 }
-
 .visit .hours .time-2 {
   background-color: #ACC816;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
+  flex: 1 1 100px;
   margin-right: 1rem;
 }
-
 @media (min-width: 472px) {
   .visit .hours .time-2 {
     margin: 0 2rem 2rem;
   }
 }
-
 .visit .hours .time-3 {
   background-color: #EAD6AE;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 100px;
-          flex: 1 1 100px;
+  flex: 1 1 100px;
   margin-left: 1rem;
 }
-
 @media (min-width: 472px) {
   .visit .hours .time-3 {
     margin-left: 0;
   }
 }
-
 .visit .contact-info {
   background-color: #ACC816;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .visit .contact-info p {
   margin-top: 0.5rem;
   font-size: 20px;
   margin-bottom: 3rem;
 }
-
 @media (min-width: 810px) {
   .visit .contact-info {
     margin-left: 1rem;
   }
 }
 
+.events-calendar .event-intro {
+  max-width: 70ch;
+  text-align: center;
+  margin: 2rem auto;
+}
 .events-calendar .button {
   margin-bottom: 2rem;
 }
-
 .events-calendar > h2 {
   text-align: center;
 }
-
 .events-calendar .event-red {
   background: url("../assets/img/frontroom.jpg") center/cover no-repeat;
 }
-
 .events-calendar .event-red .content {
   background-color: #591623;
   color: #EAD6AE;
 }
-
 .events-calendar .event-green {
   background: url("../assets/img/games.jpg") center/cover no-repeat;
 }
-
 .events-calendar .event-green .content {
   background-color: #ACC816;
   color: #000000;
 }
-
 .events-calendar .event {
   height: 900px;
   margin-top: 2rem;
   margin-bottom: 2rem;
   position: relative;
 }
-
 .events-calendar .event .content {
   position: absolute;
   bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 1rem;
   width: 100%;
 }
-
 .events-calendar .event .content .intro {
   width: 100%;
   padding: 1rem 1rem;
 }
-
 .events-calendar .event .content .intro h4 {
   margin-bottom: 1rem;
 }
-
+.events-calendar .event .content .intro p {
+  max-width: 70ch;
+}
 .events-calendar .event .content .info {
   width: 100%;
   padding: 1rem 1rem;
@@ -551,39 +426,26 @@ main {
 .gallery {
   text-align: center;
 }
-
 .gallery p {
   max-width: 70ch;
   margin: 2rem auto;
 }
-
 .gallery .gallery-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
-
 .gallery .gallery-1 img {
   padding: 1rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
+  min-width: 200px;
 }
-
 @media (min-width: 768px) {
   .gallery .gallery-1 .gallery-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     width: 100%;
   }
 }
@@ -601,64 +463,39 @@ main {
 
 footer {
   background-color: #ACC816;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 footer .social-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   padding-top: 2rem;
 }
-
 footer .social-icons div {
   margin: 1rem 1rem;
 }
-
 footer .social-icons svg {
   width: 30px;
   height: 30px;
   color: #000000;
 }
-
 footer .social-icons img {
   height: 30px;
 }
-
 footer .footer-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
-
 footer .footer-nav ul li {
   margin: 1rem;
 }
-
 footer .footer-nav ul li a {
   color: #000000;
   font-size: 1.3rem;
 }
-
 footer .site-info {
   color: #ACC816;
   background-color: #000000;
@@ -668,17 +505,17 @@ footer .site-info {
 }
 
 header h1 {
-  font-size: 48px;
+  font-size: 4rem;
   margin: 0;
   height: 100%;
   padding: 2rem;
+  color: #ffffff;
 }
-
 header .navbar {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #000000;
+  margin-bottom: 2rem;
 }
-
 header img {
   padding: 0 2rem 2rem;
   width: 100%;
@@ -689,41 +526,30 @@ nav {
   margin: 0 auto;
   display: block;
 }
-
 nav ul {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   height: 100%;
-  padding: 0 2rem;
+  padding: 0 2rem 1rem 2rem;
 }
-
 nav li {
   height: 100%;
-  padding: .3rem;
+  padding: 0.3rem 1rem;
 }
-
 nav a {
   text-decoration: none;
   font: 100% adobe-devanagari, sans-serif;
   font-size: 24px;
-  color: #000000;
-  -webkit-transition: background .2s ease, color .2s ease;
-  transition: background .2s ease, color .2s ease;
-  padding: 2.8rem .7rem;
+  color: #ffffff;
+  transition: border 0.2s ease, color 0.2s ease;
+  padding: 0;
   height: 100%;
 }
-
 nav a:hover {
   color: #ACC816;
 }
+
 /*# sourceMappingURL=main.css.map */
