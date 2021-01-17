@@ -148,6 +148,9 @@ main {
 .shop-news .text-top p {
   margin-top: 2rem;
 }
+.shop-news .text-top .underline {
+  background-color: #ffffff;
+}
 .shop-news .img {
   padding: 1rem;
 }
@@ -174,7 +177,7 @@ main {
 @media (min-width: 400px) {
   .treasures .rabbit {
     padding-right: 1rem;
-    margin-bottom: 2re;
+    margin-bottom: 2rem;
   }
 }
 @media (min-width: 939px) {
@@ -379,6 +382,13 @@ main {
 .events-calendar > h2 {
   text-align: center;
 }
+.events-calendar .event-brown {
+  background: url("../assets/img/frontroom.jpg") center/cover no-repeat;
+}
+.events-calendar .event-brown .content {
+  background-color: #EAD6AE;
+  color: #591623;
+}
 .events-calendar .event-red {
   background: url("../assets/img/frontroom.jpg") center/cover no-repeat;
 }
@@ -503,17 +513,29 @@ footer .site-info {
   padding: 1rem;
   margin-top: 1rem;
 }
+footer .site-info a {
+  color: white;
+}
+footer .site-info a:hover {
+  text-decoration: underline;
+}
 
 header h1 {
   font-size: 4rem;
   margin: 0;
   height: 100%;
-  padding: 2rem;
+  padding-top: 2rem;
   color: #ffffff;
+}
+header p {
+  color: #ffffff;
+  font-family: "open-sans";
+  font-size: 1.9rem;
+  padding-bottom: 2rem;
 }
 header .navbar {
   text-align: center;
-  background-color: #000000;
+  background-color: #131313;
   margin-bottom: 2rem;
 }
 header img {
